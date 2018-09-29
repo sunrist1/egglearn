@@ -11,9 +11,9 @@
       "protocolWhiteList": [],
       "defaultMiddleware": "csrf,hsts,methodnoallow,noopen,nosniff,csp,xssProtection,xframe,dta",
       "csrf": {
-        "enable": false,
+        "enable": true,
         "useSession": false,
-        "ignoreJSON": true,
+        "ignoreJSON": false,
         "cookieName": "csrfToken",
         "sessionName": "csrfToken",
         "headerName": "x-csrf-token",
@@ -73,7 +73,7 @@
     "onerror": {
       "errorPageUrl": "",
       "appErrorFilter": null,
-      "templatePath": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg-onerror\\lib\\onerror_page.mustache"
+      "templatePath": "D:\\workspace\\node\\egglearn\\node_modules\\egg-onerror\\lib\\onerror_page.mustache"
     },
     "i18n": {
       "defaultLocale": "en_US",
@@ -85,8 +85,8 @@
     "watcher": {
       "type": "development",
       "eventSources": {
-        "default": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg-watcher\\lib\\event-sources\\default",
-        "development": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg-watcher\\lib\\event-sources\\development"
+        "default": "D:\\workspace\\node\\egglearn\\node_modules\\egg-watcher\\lib\\event-sources\\default",
+        "development": "D:\\workspace\\node\\egglearn\\node_modules\\egg-watcher\\lib\\event-sources\\development"
       }
     },
     "multipart": {
@@ -110,7 +110,7 @@
     "customLogger": {
       "scheduleLogger": {
         "consoleLevel": "NONE",
-        "file": "D:\\workspace\\node\\wechat-egg\\logs\\wechat-egg\\egg-schedule.log"
+        "file": "D:\\workspace\\node\\egglearn\\logs\\wechat-egg\\egg-schedule.log"
       }
     },
     "logrotator": {
@@ -124,14 +124,14 @@
     },
     "static": {
       "prefix": "/public/",
-      "dir": "D:\\workspace\\node\\wechat-egg\\app\\public",
+      "dir": "D:\\workspace\\node\\egglearn\\app\\public",
       "dynamic": true,
       "preload": false,
       "buffer": false,
       "maxFiles": 1000
     },
     "view": {
-      "root": "D:\\workspace\\node\\wechat-egg\\app\\view",
+      "root": "D:\\workspace\\node\\egglearn\\app\\view",
       "cache": false,
       "defaultExtension": ".html",
       "defaultViewEngine": "nunjucks",
@@ -159,12 +159,14 @@
       "description": "",
       "private": true,
       "dependencies": {
+        "await-stream-ready": "^1.0.1",
         "co-wechat": "^2.3.0",
         "egg": "^2.11.2",
         "egg-scripts": "^2.5.0",
         "egg-view-nunjucks": "^2.2.0",
         "koa": "^2.5.3",
-        "moment": "^2.22.2"
+        "moment": "^2.22.2",
+        "stream-wormhole": "^1.1.0"
       },
       "devDependencies": {
         "autod": "^3.0.1",
@@ -201,9 +203,9 @@
       "author": "sunrist1",
       "license": "MIT"
     },
-    "baseDir": "D:\\workspace\\node\\wechat-egg",
+    "baseDir": "D:\\workspace\\node\\egglearn",
     "HOME": "C:\\Users\\Administrator",
-    "rundir": "D:\\workspace\\node\\wechat-egg\\run",
+    "rundir": "D:\\workspace\\node\\egglearn\\run",
     "dump": {
       "ignore": "<Set>"
     },
@@ -233,7 +235,7 @@
       }
     },
     "logger": {
-      "dir": "D:\\workspace\\node\\wechat-egg\\logs\\wechat-egg",
+      "dir": "D:\\workspace\\node\\egglearn\\logs\\wechat-egg",
       "encoding": "utf8",
       "env": "local",
       "level": "INFO",
@@ -295,6 +297,10 @@
       "responseTimeout": 60000
     },
     "onClientError": null,
+    "middleware": [
+      "robot",
+      "gzip"
+    ],
     "news": {
       "pageSize": 5,
       "serverUrl": "https://cnodejs.org/api/v1"
@@ -304,9 +310,9 @@
         {}
       ]
     },
-    "middleware": [
-      "robot"
-    ],
+    "gzip": {
+      "threshold": 1024
+    },
     "coreMiddlewares": "~config~coreMiddleware",
     "appMiddlewares": "~config~middleware",
     "appMiddleware": "~config~middleware"
@@ -319,8 +325,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg\\config\\plugin.js",
-      "path": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg-session",
+      "from": "D:\\workspace\\node\\egglearn\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\workspace\\node\\egglearn\\node_modules\\egg-session",
       "version": "3.1.0"
     },
     "security": {
@@ -332,8 +338,8 @@
         "session"
       ],
       "env": [],
-      "from": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg\\config\\plugin.js",
-      "path": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg-security",
+      "from": "D:\\workspace\\node\\egglearn\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\workspace\\node\\egglearn\\node_modules\\egg-security",
       "version": "2.4.0"
     },
     "jsonp": {
@@ -345,8 +351,8 @@
         "security"
       ],
       "env": [],
-      "from": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg\\config\\plugin.js",
-      "path": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg-jsonp",
+      "from": "D:\\workspace\\node\\egglearn\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\workspace\\node\\egglearn\\node_modules\\egg-jsonp",
       "version": "2.0.0"
     },
     "onerror": {
@@ -358,8 +364,8 @@
         "jsonp"
       ],
       "env": [],
-      "from": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg\\config\\plugin.js",
-      "path": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg-onerror",
+      "from": "D:\\workspace\\node\\egglearn\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\workspace\\node\\egglearn\\node_modules\\egg-onerror",
       "version": "2.1.0"
     },
     "i18n": {
@@ -369,8 +375,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg\\config\\plugin.js",
-      "path": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg-i18n",
+      "from": "D:\\workspace\\node\\egglearn\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\workspace\\node\\egglearn\\node_modules\\egg-i18n",
       "version": "2.0.0"
     },
     "watcher": {
@@ -380,8 +386,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg\\config\\plugin.js",
-      "path": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg-watcher",
+      "from": "D:\\workspace\\node\\egglearn\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\workspace\\node\\egglearn\\node_modules\\egg-watcher",
       "version": "3.1.0"
     },
     "multipart": {
@@ -391,8 +397,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg\\config\\plugin.js",
-      "path": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg-multipart",
+      "from": "D:\\workspace\\node\\egglearn\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\workspace\\node\\egglearn\\node_modules\\egg-multipart",
       "version": "2.1.0"
     },
     "development": {
@@ -406,8 +412,8 @@
       "env": [
         "local"
       ],
-      "from": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg\\config\\plugin.js",
-      "path": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg-development",
+      "from": "D:\\workspace\\node\\egglearn\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\workspace\\node\\egglearn\\node_modules\\egg-development",
       "version": "2.4.1"
     },
     "schedule": {
@@ -417,8 +423,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg\\config\\plugin.js",
-      "path": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg-schedule",
+      "from": "D:\\workspace\\node\\egglearn\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\workspace\\node\\egglearn\\node_modules\\egg-schedule",
       "version": "3.4.0"
     },
     "logrotator": {
@@ -430,8 +436,8 @@
       ],
       "optionalDependencies": [],
       "env": [],
-      "from": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg\\config\\plugin.js",
-      "path": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg-logrotator",
+      "from": "D:\\workspace\\node\\egglearn\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\workspace\\node\\egglearn\\node_modules\\egg-logrotator",
       "version": "3.0.3"
     },
     "static": {
@@ -441,8 +447,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg\\config\\plugin.js",
-      "path": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg-static",
+      "from": "D:\\workspace\\node\\egglearn\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\workspace\\node\\egglearn\\node_modules\\egg-static",
       "version": "2.1.1"
     },
     "view": {
@@ -452,8 +458,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg\\config\\plugin.js",
-      "path": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg-view",
+      "from": "D:\\workspace\\node\\egglearn\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\workspace\\node\\egglearn\\node_modules\\egg-view",
       "version": "2.1.0"
     },
     "nunjucks": {
@@ -466,8 +472,8 @@
       ],
       "optionalDependencies": [],
       "env": [],
-      "from": "D:\\workspace\\node\\wechat-egg\\config\\plugin.js",
-      "path": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg-view-nunjucks",
+      "from": "D:\\workspace\\node\\egglearn\\config\\plugin.js",
+      "path": "D:\\workspace\\node\\egglearn\\node_modules\\egg-view-nunjucks",
       "version": "2.2.0"
     }
   }

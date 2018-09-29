@@ -11,19 +11,15 @@ class NewsService extends Service {
       dataType: 'json',
       contentType: 'json',
     });
-
-    // const newsList = await Promise.all(
-    //   Object.keys(idList.data).map(key => {
-    //     const url = `${serverUrl}/topic/${idList.data[key].id}`;
-    //     return this.ctx.curl(url, { 
-    //       method: 'get',
-    //       dataType: 'json',
-    //       contentType: 'json',
-    //     });
-    //   })
-    // );
-    // return newsList.map(res => res.data);
     return idList.data;
+  }
+
+  async content(id=0) {
+    const {serverUrl} = this.config.news;
+    const {data: content} = await this.ctx.curl(`${serverUrl}/topic/${id}`,{
+      mdrender:false
+    })
+    return JSON.parse(content).data;
   }
 }
 

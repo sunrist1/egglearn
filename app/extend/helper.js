@@ -9,6 +9,6 @@ module.exports = {
     return moment(new Date(time * 1000)).fromNow();
   },
   zoneTime(time) {
-    return moment(time).utc().zone(-8).format('YYYY-MM-DD HH:mm:ss');
+    return moment(time).utc().format('YYYY-MM-DD HH:mm:ss');
   },
 }

@@ -32,6 +32,19 @@
       "GET"
     ],
     "paramNames": [],
+    "path": "/news/content",
+    "regexp": "/^\\/news\\/content(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
     "path": "/wechat",
     "regexp": "/^\\/wechat(?:\\/(?=$))?$/",
     "stack": [
@@ -46,6 +59,57 @@
     "paramNames": [],
     "path": "/wechat",
     "regexp": "/^\\/wechat(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/uploader",
+    "regexp": "/^\\/uploader(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/uploader",
+    "regexp": "/^\\/uploader(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/cookie",
+    "regexp": "/^\\/cookie(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/cookie/remove",
+    "regexp": "/^\\/cookie\\/remove(?:\\/(?=$))?$/",
     "stack": [
       "wrappedController"
     ]

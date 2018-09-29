@@ -9,6 +9,17 @@ class NewsController extends Controller {
     const newsList = await ctx.service.news.list(page);
     await ctx.render('news/list.tpl', { list: newsList });
   }
+
+  async content() {
+    const ctx = this.ctx;
+    const id = ctx.query.id;
+    const content = await ctx.service.news.content(id);
+
+
+    await ctx.render('news/content.tpl', {
+      content: content
+    });
+  }
 }
 
 module.exports = NewsController;

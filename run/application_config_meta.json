@@ -1,297 +1,299 @@
 {
-  "keys": "D:\\workspace\\node\\wechat-egg\\config\\config.default.js",
-  "middleware": "D:\\workspace\\node\\wechat-egg\\config\\config.default.js",
+  "keys": "D:\\workspace\\node\\egglearn\\config\\config.default.js",
+  "middleware": "D:\\workspace\\node\\egglearn\\config\\config.default.js",
   "view": {
-    "defaultViewEngine": "D:\\workspace\\node\\wechat-egg\\config\\config.default.js",
+    "defaultViewEngine": "D:\\workspace\\node\\egglearn\\config\\config.default.js",
     "mapping": {
-      ".tpl": "D:\\workspace\\node\\wechat-egg\\config\\config.default.js"
+      ".tpl": "D:\\workspace\\node\\egglearn\\config\\config.default.js"
     },
-    "root": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg-view\\config\\config.default.js",
-    "cache": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg-view\\config\\config.local.js",
-    "defaultExtension": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg-view\\config\\config.default.js"
+    "root": "D:\\workspace\\node\\egglearn\\node_modules\\egg-view\\config\\config.default.js",
+    "cache": "D:\\workspace\\node\\egglearn\\node_modules\\egg-view\\config\\config.local.js",
+    "defaultExtension": "D:\\workspace\\node\\egglearn\\node_modules\\egg-view\\config\\config.default.js"
   },
   "news": {
-    "pageSize": "D:\\workspace\\node\\wechat-egg\\config\\config.default.js",
-    "serverUrl": "D:\\workspace\\node\\wechat-egg\\config\\config.default.js"
+    "pageSize": "D:\\workspace\\node\\egglearn\\config\\config.default.js",
+    "serverUrl": "D:\\workspace\\node\\egglearn\\config\\config.default.js"
   },
   "robot": {
-    "ua": "D:\\workspace\\node\\wechat-egg\\config\\config.default.js"
+    "ua": "D:\\workspace\\node\\egglearn\\config\\config.default.js"
   },
   "gzip": {
-    "threshold": "D:\\workspace\\node\\wechat-egg\\config\\config.default.js"
-  },
-  "security": {
-    "csrf": {
-      "enable": "D:\\workspace\\node\\wechat-egg\\config\\config.default.js",
-      "ignoreJSON": "D:\\workspace\\node\\wechat-egg\\config\\config.default.js",
-      "useSession": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg-security\\config\\config.default.js",
-      "cookieName": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg-security\\config\\config.default.js",
-      "sessionName": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg-security\\config\\config.default.js",
-      "headerName": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg-security\\config\\config.default.js",
-      "bodyName": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg-security\\config\\config.default.js",
-      "queryName": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg-security\\config\\config.default.js"
-    },
-    "domainWhiteList": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg-security\\config\\config.default.js",
-    "protocolWhiteList": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg-security\\config\\config.default.js",
-    "defaultMiddleware": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg-security\\config\\config.default.js",
-    "xframe": {
-      "enable": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg-security\\config\\config.default.js",
-      "value": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg-security\\config\\config.default.js"
-    },
-    "hsts": {
-      "enable": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg-security\\config\\config.local.js",
-      "maxAge": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg-security\\config\\config.default.js",
-      "includeSubdomains": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg-security\\config\\config.default.js"
-    },
-    "dta": {
-      "enable": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg-security\\config\\config.default.js"
-    },
-    "methodnoallow": {
-      "enable": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg-security\\config\\config.default.js"
-    },
-    "noopen": {
-      "enable": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg-security\\config\\config.default.js"
-    },
-    "nosniff": {
-      "enable": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg-security\\config\\config.default.js"
-    },
-    "referrerPolicy": {
-      "enable": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg-security\\config\\config.default.js",
-      "value": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg-security\\config\\config.default.js"
-    },
-    "xssProtection": {
-      "enable": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg-security\\config\\config.default.js",
-      "value": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg-security\\config\\config.default.js"
-    },
-    "csp": {
-      "enable": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg-security\\config\\config.default.js",
-      "policy": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg-security\\config\\config.default.js"
-    },
-    "ssrf": {
-      "ipBlackList": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg-security\\config\\config.default.js",
-      "checkAddress": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg-security\\config\\config.default.js"
-    }
+    "threshold": "D:\\workspace\\node\\egglearn\\config\\config.default.js"
   },
   "session": {
-    "maxAge": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg-session\\config\\config.default.js",
-    "key": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg-session\\config\\config.default.js",
-    "httpOnly": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg-session\\config\\config.default.js",
-    "encrypt": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg-session\\config\\config.default.js"
+    "maxAge": "D:\\workspace\\node\\egglearn\\node_modules\\egg-session\\config\\config.default.js",
+    "key": "D:\\workspace\\node\\egglearn\\node_modules\\egg-session\\config\\config.default.js",
+    "httpOnly": "D:\\workspace\\node\\egglearn\\node_modules\\egg-session\\config\\config.default.js",
+    "encrypt": "D:\\workspace\\node\\egglearn\\node_modules\\egg-session\\config\\config.default.js"
+  },
+  "security": {
+    "domainWhiteList": "D:\\workspace\\node\\egglearn\\node_modules\\egg-security\\config\\config.default.js",
+    "protocolWhiteList": "D:\\workspace\\node\\egglearn\\node_modules\\egg-security\\config\\config.default.js",
+    "defaultMiddleware": "D:\\workspace\\node\\egglearn\\node_modules\\egg-security\\config\\config.default.js",
+    "csrf": {
+      "enable": "D:\\workspace\\node\\egglearn\\node_modules\\egg-security\\config\\config.default.js",
+      "useSession": "D:\\workspace\\node\\egglearn\\node_modules\\egg-security\\config\\config.default.js",
+      "ignoreJSON": "D:\\workspace\\node\\egglearn\\node_modules\\egg-security\\config\\config.default.js",
+      "cookieName": "D:\\workspace\\node\\egglearn\\node_modules\\egg-security\\config\\config.default.js",
+      "sessionName": "D:\\workspace\\node\\egglearn\\node_modules\\egg-security\\config\\config.default.js",
+      "headerName": "D:\\workspace\\node\\egglearn\\node_modules\\egg-security\\config\\config.default.js",
+      "bodyName": "D:\\workspace\\node\\egglearn\\node_modules\\egg-security\\config\\config.default.js",
+      "queryName": "D:\\workspace\\node\\egglearn\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "xframe": {
+      "enable": "D:\\workspace\\node\\egglearn\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "D:\\workspace\\node\\egglearn\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "hsts": {
+      "enable": "D:\\workspace\\node\\egglearn\\node_modules\\egg-security\\config\\config.local.js",
+      "maxAge": "D:\\workspace\\node\\egglearn\\node_modules\\egg-security\\config\\config.default.js",
+      "includeSubdomains": "D:\\workspace\\node\\egglearn\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "dta": {
+      "enable": "D:\\workspace\\node\\egglearn\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "D:\\workspace\\node\\egglearn\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "noopen": {
+      "enable": "D:\\workspace\\node\\egglearn\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "nosniff": {
+      "enable": "D:\\workspace\\node\\egglearn\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "D:\\workspace\\node\\egglearn\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "D:\\workspace\\node\\egglearn\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "xssProtection": {
+      "enable": "D:\\workspace\\node\\egglearn\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "D:\\workspace\\node\\egglearn\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "csp": {
+      "enable": "D:\\workspace\\node\\egglearn\\node_modules\\egg-security\\config\\config.default.js",
+      "policy": "D:\\workspace\\node\\egglearn\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "D:\\workspace\\node\\egglearn\\node_modules\\egg-security\\config\\config.default.js",
+      "checkAddress": "D:\\workspace\\node\\egglearn\\node_modules\\egg-security\\config\\config.default.js"
+    }
   },
   "helper": {
-    "shtml": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg-security\\config\\config.default.js"
+    "shtml": "D:\\workspace\\node\\egglearn\\node_modules\\egg-security\\config\\config.default.js"
   },
   "jsonp": {
-    "limit": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg-jsonp\\config\\config.default.js",
-    "callback": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg-jsonp\\config\\config.default.js",
-    "csrf": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg-jsonp\\config\\config.default.js"
+    "limit": "D:\\workspace\\node\\egglearn\\node_modules\\egg-jsonp\\config\\config.default.js",
+    "callback": "D:\\workspace\\node\\egglearn\\node_modules\\egg-jsonp\\config\\config.default.js",
+    "csrf": "D:\\workspace\\node\\egglearn\\node_modules\\egg-jsonp\\config\\config.default.js"
   },
   "onerror": {
-    "errorPageUrl": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg-onerror\\config\\config.default.js",
-    "appErrorFilter": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg-onerror\\config\\config.default.js",
-    "templatePath": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg-onerror\\config\\config.default.js"
+    "errorPageUrl": "D:\\workspace\\node\\egglearn\\node_modules\\egg-onerror\\config\\config.default.js",
+    "appErrorFilter": "D:\\workspace\\node\\egglearn\\node_modules\\egg-onerror\\config\\config.default.js",
+    "templatePath": "D:\\workspace\\node\\egglearn\\node_modules\\egg-onerror\\config\\config.default.js"
   },
   "i18n": {
-    "defaultLocale": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg-i18n\\config\\config.default.js",
-    "dirs": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg-i18n\\config\\config.default.js",
-    "queryField": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg-i18n\\config\\config.default.js",
-    "cookieField": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg-i18n\\config\\config.default.js",
-    "cookieMaxAge": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg-i18n\\config\\config.default.js"
+    "defaultLocale": "D:\\workspace\\node\\egglearn\\node_modules\\egg-i18n\\config\\config.default.js",
+    "dirs": "D:\\workspace\\node\\egglearn\\node_modules\\egg-i18n\\config\\config.default.js",
+    "queryField": "D:\\workspace\\node\\egglearn\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieField": "D:\\workspace\\node\\egglearn\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieMaxAge": "D:\\workspace\\node\\egglearn\\node_modules\\egg-i18n\\config\\config.default.js"
   },
   "watcher": {
-    "type": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg-watcher\\config\\config.local.js",
+    "type": "D:\\workspace\\node\\egglearn\\node_modules\\egg-watcher\\config\\config.local.js",
     "eventSources": {
-      "default": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg-watcher\\config\\config.default.js",
-      "development": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg-watcher\\config\\config.default.js"
+      "default": "D:\\workspace\\node\\egglearn\\node_modules\\egg-watcher\\config\\config.default.js",
+      "development": "D:\\workspace\\node\\egglearn\\node_modules\\egg-watcher\\config\\config.default.js"
     }
   },
   "multipart": {
-    "autoFields": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg-multipart\\config\\config.default.js",
-    "defaultCharset": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg-multipart\\config\\config.default.js",
-    "fieldNameSize": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg-multipart\\config\\config.default.js",
-    "fieldSize": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg-multipart\\config\\config.default.js",
-    "fields": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg-multipart\\config\\config.default.js",
-    "fileSize": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg-multipart\\config\\config.default.js",
-    "files": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg-multipart\\config\\config.default.js",
-    "fileExtensions": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg-multipart\\config\\config.default.js",
-    "whitelist": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg-multipart\\config\\config.default.js"
+    "autoFields": "D:\\workspace\\node\\egglearn\\node_modules\\egg-multipart\\config\\config.default.js",
+    "defaultCharset": "D:\\workspace\\node\\egglearn\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fieldNameSize": "D:\\workspace\\node\\egglearn\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fieldSize": "D:\\workspace\\node\\egglearn\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fields": "D:\\workspace\\node\\egglearn\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fileSize": "D:\\workspace\\node\\egglearn\\node_modules\\egg-multipart\\config\\config.default.js",
+    "files": "D:\\workspace\\node\\egglearn\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fileExtensions": "D:\\workspace\\node\\egglearn\\node_modules\\egg-multipart\\config\\config.default.js",
+    "whitelist": "D:\\workspace\\node\\egglearn\\node_modules\\egg-multipart\\config\\config.default.js"
   },
   "development": {
-    "watchDirs": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg-development\\config\\config.default.js",
-    "ignoreDirs": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg-development\\config\\config.default.js",
-    "fastReady": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg-development\\config\\config.default.js",
-    "reloadOnDebug": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg-development\\config\\config.default.js",
-    "overrideDefault": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg-development\\config\\config.default.js"
+    "watchDirs": "D:\\workspace\\node\\egglearn\\node_modules\\egg-development\\config\\config.default.js",
+    "ignoreDirs": "D:\\workspace\\node\\egglearn\\node_modules\\egg-development\\config\\config.default.js",
+    "fastReady": "D:\\workspace\\node\\egglearn\\node_modules\\egg-development\\config\\config.default.js",
+    "reloadOnDebug": "D:\\workspace\\node\\egglearn\\node_modules\\egg-development\\config\\config.default.js",
+    "overrideDefault": "D:\\workspace\\node\\egglearn\\node_modules\\egg-development\\config\\config.default.js"
   },
   "customLogger": {
     "scheduleLogger": {
-      "consoleLevel": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg-schedule\\config\\config.default.js",
-      "file": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg-schedule\\config\\config.default.js"
+      "consoleLevel": "D:\\workspace\\node\\egglearn\\node_modules\\egg-schedule\\config\\config.default.js",
+      "file": "D:\\workspace\\node\\egglearn\\node_modules\\egg-schedule\\config\\config.default.js"
     }
   },
   "logrotator": {
-    "filesRotateByHour": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg-logrotator\\config\\config.default.js",
-    "hourDelimiter": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg-logrotator\\config\\config.default.js",
-    "filesRotateBySize": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg-logrotator\\config\\config.default.js",
-    "maxFileSize": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg-logrotator\\config\\config.default.js",
-    "maxFiles": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg-logrotator\\config\\config.default.js",
-    "rotateDuration": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg-logrotator\\config\\config.default.js",
-    "maxDays": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg-logrotator\\config\\config.default.js"
+    "filesRotateByHour": "D:\\workspace\\node\\egglearn\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "hourDelimiter": "D:\\workspace\\node\\egglearn\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "filesRotateBySize": "D:\\workspace\\node\\egglearn\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxFileSize": "D:\\workspace\\node\\egglearn\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxFiles": "D:\\workspace\\node\\egglearn\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "rotateDuration": "D:\\workspace\\node\\egglearn\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxDays": "D:\\workspace\\node\\egglearn\\node_modules\\egg-logrotator\\config\\config.default.js"
   },
   "static": {
-    "prefix": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg-static\\config\\config.default.js",
-    "dir": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg-static\\config\\config.default.js",
-    "dynamic": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg-static\\config\\config.default.js",
-    "preload": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg-static\\config\\config.default.js",
-    "buffer": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg-static\\config\\config.default.js",
-    "maxFiles": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg-static\\config\\config.default.js"
+    "prefix": "D:\\workspace\\node\\egglearn\\node_modules\\egg-static\\config\\config.default.js",
+    "dir": "D:\\workspace\\node\\egglearn\\node_modules\\egg-static\\config\\config.default.js",
+    "dynamic": "D:\\workspace\\node\\egglearn\\node_modules\\egg-static\\config\\config.default.js",
+    "preload": "D:\\workspace\\node\\egglearn\\node_modules\\egg-static\\config\\config.default.js",
+    "buffer": "D:\\workspace\\node\\egglearn\\node_modules\\egg-static\\config\\config.default.js",
+    "maxFiles": "D:\\workspace\\node\\egglearn\\node_modules\\egg-static\\config\\config.default.js"
   },
   "nunjucks": {
-    "autoescape": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg-view-nunjucks\\config\\config.default.js",
-    "throwOnUndefined": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg-view-nunjucks\\config\\config.default.js",
-    "trimBlocks": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg-view-nunjucks\\config\\config.default.js",
-    "lstripBlocks": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg-view-nunjucks\\config\\config.default.js",
-    "cache": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg-view-nunjucks\\config\\config.local.js"
+    "autoescape": "D:\\workspace\\node\\egglearn\\node_modules\\egg-view-nunjucks\\config\\config.default.js",
+    "throwOnUndefined": "D:\\workspace\\node\\egglearn\\node_modules\\egg-view-nunjucks\\config\\config.default.js",
+    "trimBlocks": "D:\\workspace\\node\\egglearn\\node_modules\\egg-view-nunjucks\\config\\config.default.js",
+    "lstripBlocks": "D:\\workspace\\node\\egglearn\\node_modules\\egg-view-nunjucks\\config\\config.default.js",
+    "cache": "D:\\workspace\\node\\egglearn\\node_modules\\egg-view-nunjucks\\config\\config.local.js"
   },
-  "env": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg\\config\\config.default.js",
-  "name": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg\\config\\config.default.js",
-  "proxy": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg\\config\\config.default.js",
-  "protocolHeaders": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg\\config\\config.default.js",
-  "ipHeaders": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg\\config\\config.default.js",
-  "hostHeaders": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg\\config\\config.default.js",
+  "env": "D:\\workspace\\node\\egglearn\\node_modules\\egg\\config\\config.default.js",
+  "name": "D:\\workspace\\node\\egglearn\\node_modules\\egg\\config\\config.default.js",
+  "proxy": "D:\\workspace\\node\\egglearn\\node_modules\\egg\\config\\config.default.js",
+  "protocolHeaders": "D:\\workspace\\node\\egglearn\\node_modules\\egg\\config\\config.default.js",
+  "ipHeaders": "D:\\workspace\\node\\egglearn\\node_modules\\egg\\config\\config.default.js",
+  "hostHeaders": "D:\\workspace\\node\\egglearn\\node_modules\\egg\\config\\config.default.js",
   "pkg": {
-    "name": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg\\config\\config.default.js",
-    "version": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg\\config\\config.default.js",
-    "description": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg\\config\\config.default.js",
-    "private": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg\\config\\config.default.js",
+    "name": "D:\\workspace\\node\\egglearn\\node_modules\\egg\\config\\config.default.js",
+    "version": "D:\\workspace\\node\\egglearn\\node_modules\\egg\\config\\config.default.js",
+    "description": "D:\\workspace\\node\\egglearn\\node_modules\\egg\\config\\config.default.js",
+    "private": "D:\\workspace\\node\\egglearn\\node_modules\\egg\\config\\config.default.js",
     "dependencies": {
-      "co-wechat": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg\\config\\config.default.js",
-      "egg": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg\\config\\config.default.js",
-      "egg-scripts": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg\\config\\config.default.js",
-      "egg-view-nunjucks": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg\\config\\config.default.js",
-      "koa": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg\\config\\config.default.js",
-      "moment": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg\\config\\config.default.js"
+      "await-stream-ready": "D:\\workspace\\node\\egglearn\\node_modules\\egg\\config\\config.default.js",
+      "co-wechat": "D:\\workspace\\node\\egglearn\\node_modules\\egg\\config\\config.default.js",
+      "egg": "D:\\workspace\\node\\egglearn\\node_modules\\egg\\config\\config.default.js",
+      "egg-scripts": "D:\\workspace\\node\\egglearn\\node_modules\\egg\\config\\config.default.js",
+      "egg-view-nunjucks": "D:\\workspace\\node\\egglearn\\node_modules\\egg\\config\\config.default.js",
+      "koa": "D:\\workspace\\node\\egglearn\\node_modules\\egg\\config\\config.default.js",
+      "moment": "D:\\workspace\\node\\egglearn\\node_modules\\egg\\config\\config.default.js",
+      "stream-wormhole": "D:\\workspace\\node\\egglearn\\node_modules\\egg\\config\\config.default.js"
     },
     "devDependencies": {
-      "autod": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg\\config\\config.default.js",
-      "autod-egg": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg\\config\\config.default.js",
-      "egg-bin": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg\\config\\config.default.js",
-      "egg-ci": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg\\config\\config.default.js",
-      "egg-mock": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg\\config\\config.default.js",
-      "eslint": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg\\config\\config.default.js",
-      "eslint-config-egg": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg\\config\\config.default.js",
-      "webstorm-disable-index": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg\\config\\config.default.js"
+      "autod": "D:\\workspace\\node\\egglearn\\node_modules\\egg\\config\\config.default.js",
+      "autod-egg": "D:\\workspace\\node\\egglearn\\node_modules\\egg\\config\\config.default.js",
+      "egg-bin": "D:\\workspace\\node\\egglearn\\node_modules\\egg\\config\\config.default.js",
+      "egg-ci": "D:\\workspace\\node\\egglearn\\node_modules\\egg\\config\\config.default.js",
+      "egg-mock": "D:\\workspace\\node\\egglearn\\node_modules\\egg\\config\\config.default.js",
+      "eslint": "D:\\workspace\\node\\egglearn\\node_modules\\egg\\config\\config.default.js",
+      "eslint-config-egg": "D:\\workspace\\node\\egglearn\\node_modules\\egg\\config\\config.default.js",
+      "webstorm-disable-index": "D:\\workspace\\node\\egglearn\\node_modules\\egg\\config\\config.default.js"
     },
     "engines": {
-      "node": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg\\config\\config.default.js"
+      "node": "D:\\workspace\\node\\egglearn\\node_modules\\egg\\config\\config.default.js"
     },
     "scripts": {
-      "start": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg\\config\\config.default.js",
-      "stop": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg\\config\\config.default.js",
-      "dev": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg\\config\\config.default.js",
-      "debug": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg\\config\\config.default.js",
-      "test": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg\\config\\config.default.js",
-      "test-local": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg\\config\\config.default.js",
-      "cov": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg\\config\\config.default.js",
-      "lint": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg\\config\\config.default.js",
-      "ci": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg\\config\\config.default.js",
-      "autod": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg\\config\\config.default.js"
+      "start": "D:\\workspace\\node\\egglearn\\node_modules\\egg\\config\\config.default.js",
+      "stop": "D:\\workspace\\node\\egglearn\\node_modules\\egg\\config\\config.default.js",
+      "dev": "D:\\workspace\\node\\egglearn\\node_modules\\egg\\config\\config.default.js",
+      "debug": "D:\\workspace\\node\\egglearn\\node_modules\\egg\\config\\config.default.js",
+      "test": "D:\\workspace\\node\\egglearn\\node_modules\\egg\\config\\config.default.js",
+      "test-local": "D:\\workspace\\node\\egglearn\\node_modules\\egg\\config\\config.default.js",
+      "cov": "D:\\workspace\\node\\egglearn\\node_modules\\egg\\config\\config.default.js",
+      "lint": "D:\\workspace\\node\\egglearn\\node_modules\\egg\\config\\config.default.js",
+      "ci": "D:\\workspace\\node\\egglearn\\node_modules\\egg\\config\\config.default.js",
+      "autod": "D:\\workspace\\node\\egglearn\\node_modules\\egg\\config\\config.default.js"
     },
     "ci": {
-      "version": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg\\config\\config.default.js"
+      "version": "D:\\workspace\\node\\egglearn\\node_modules\\egg\\config\\config.default.js"
     },
     "repository": {
-      "type": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg\\config\\config.default.js",
-      "url": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg\\config\\config.default.js"
+      "type": "D:\\workspace\\node\\egglearn\\node_modules\\egg\\config\\config.default.js",
+      "url": "D:\\workspace\\node\\egglearn\\node_modules\\egg\\config\\config.default.js"
     },
-    "author": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg\\config\\config.default.js",
-    "license": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg\\config\\config.default.js"
+    "author": "D:\\workspace\\node\\egglearn\\node_modules\\egg\\config\\config.default.js",
+    "license": "D:\\workspace\\node\\egglearn\\node_modules\\egg\\config\\config.default.js"
   },
-  "baseDir": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg\\config\\config.default.js",
-  "HOME": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg\\config\\config.default.js",
-  "rundir": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg\\config\\config.default.js",
+  "baseDir": "D:\\workspace\\node\\egglearn\\node_modules\\egg\\config\\config.default.js",
+  "HOME": "D:\\workspace\\node\\egglearn\\node_modules\\egg\\config\\config.default.js",
+  "rundir": "D:\\workspace\\node\\egglearn\\node_modules\\egg\\config\\config.default.js",
   "dump": {
-    "ignore": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg\\config\\config.default.js"
+    "ignore": "D:\\workspace\\node\\egglearn\\node_modules\\egg\\config\\config.default.js"
   },
   "confusedConfigurations": {
-    "bodyparser": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg\\config\\config.default.js",
-    "notFound": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg\\config\\config.default.js",
-    "sitefile": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg\\config\\config.default.js",
-    "middlewares": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg\\config\\config.default.js",
-    "httpClient": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg\\config\\config.default.js"
+    "bodyparser": "D:\\workspace\\node\\egglearn\\node_modules\\egg\\config\\config.default.js",
+    "notFound": "D:\\workspace\\node\\egglearn\\node_modules\\egg\\config\\config.default.js",
+    "sitefile": "D:\\workspace\\node\\egglearn\\node_modules\\egg\\config\\config.default.js",
+    "middlewares": "D:\\workspace\\node\\egglearn\\node_modules\\egg\\config\\config.default.js",
+    "httpClient": "D:\\workspace\\node\\egglearn\\node_modules\\egg\\config\\config.default.js"
   },
   "notfound": {
-    "pageUrl": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg\\config\\config.default.js"
+    "pageUrl": "D:\\workspace\\node\\egglearn\\node_modules\\egg\\config\\config.default.js"
   },
   "siteFile": {
-    "/favicon.ico": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg\\config\\config.default.js"
+    "/favicon.ico": "D:\\workspace\\node\\egglearn\\node_modules\\egg\\config\\config.default.js"
   },
   "bodyParser": {
-    "enable": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg\\config\\config.default.js",
-    "encoding": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg\\config\\config.default.js",
-    "formLimit": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg\\config\\config.default.js",
-    "jsonLimit": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg\\config\\config.default.js",
-    "strict": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg\\config\\config.default.js",
+    "enable": "D:\\workspace\\node\\egglearn\\node_modules\\egg\\config\\config.default.js",
+    "encoding": "D:\\workspace\\node\\egglearn\\node_modules\\egg\\config\\config.default.js",
+    "formLimit": "D:\\workspace\\node\\egglearn\\node_modules\\egg\\config\\config.default.js",
+    "jsonLimit": "D:\\workspace\\node\\egglearn\\node_modules\\egg\\config\\config.default.js",
+    "strict": "D:\\workspace\\node\\egglearn\\node_modules\\egg\\config\\config.default.js",
     "queryString": {
-      "arrayLimit": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg\\config\\config.default.js",
-      "depth": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg\\config\\config.default.js",
-      "parameterLimit": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg\\config\\config.default.js"
+      "arrayLimit": "D:\\workspace\\node\\egglearn\\node_modules\\egg\\config\\config.default.js",
+      "depth": "D:\\workspace\\node\\egglearn\\node_modules\\egg\\config\\config.default.js",
+      "parameterLimit": "D:\\workspace\\node\\egglearn\\node_modules\\egg\\config\\config.default.js"
     }
   },
   "logger": {
-    "dir": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg\\config\\config.default.js",
-    "encoding": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg\\config\\config.default.js",
-    "env": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg\\config\\config.default.js",
-    "level": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg\\config\\config.default.js",
-    "consoleLevel": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg\\config\\config.default.js",
-    "disableConsoleAfterReady": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg\\config\\config.default.js",
-    "outputJSON": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg\\config\\config.default.js",
-    "buffer": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg\\config\\config.default.js",
-    "appLogName": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg\\config\\config.default.js",
-    "coreLogName": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg\\config\\config.default.js",
-    "agentLogName": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg\\config\\config.default.js",
-    "errorLogName": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg\\config\\config.default.js",
+    "dir": "D:\\workspace\\node\\egglearn\\node_modules\\egg\\config\\config.default.js",
+    "encoding": "D:\\workspace\\node\\egglearn\\node_modules\\egg\\config\\config.default.js",
+    "env": "D:\\workspace\\node\\egglearn\\node_modules\\egg\\config\\config.default.js",
+    "level": "D:\\workspace\\node\\egglearn\\node_modules\\egg\\config\\config.default.js",
+    "consoleLevel": "D:\\workspace\\node\\egglearn\\node_modules\\egg\\config\\config.default.js",
+    "disableConsoleAfterReady": "D:\\workspace\\node\\egglearn\\node_modules\\egg\\config\\config.default.js",
+    "outputJSON": "D:\\workspace\\node\\egglearn\\node_modules\\egg\\config\\config.default.js",
+    "buffer": "D:\\workspace\\node\\egglearn\\node_modules\\egg\\config\\config.default.js",
+    "appLogName": "D:\\workspace\\node\\egglearn\\node_modules\\egg\\config\\config.default.js",
+    "coreLogName": "D:\\workspace\\node\\egglearn\\node_modules\\egg\\config\\config.default.js",
+    "agentLogName": "D:\\workspace\\node\\egglearn\\node_modules\\egg\\config\\config.default.js",
+    "errorLogName": "D:\\workspace\\node\\egglearn\\node_modules\\egg\\config\\config.default.js",
     "coreLogger": {
-      "consoleLevel": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg\\config\\config.local.js"
+      "consoleLevel": "D:\\workspace\\node\\egglearn\\node_modules\\egg\\config\\config.local.js"
     },
-    "allowDebugAtProd": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg\\config\\config.default.js"
+    "allowDebugAtProd": "D:\\workspace\\node\\egglearn\\node_modules\\egg\\config\\config.default.js"
   },
   "httpclient": {
-    "enableDNSCache": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg\\config\\config.default.js",
-    "dnsCacheLookupInterval": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg\\config\\config.default.js",
-    "dnsCacheMaxLength": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg\\config\\config.default.js",
+    "enableDNSCache": "D:\\workspace\\node\\egglearn\\node_modules\\egg\\config\\config.default.js",
+    "dnsCacheLookupInterval": "D:\\workspace\\node\\egglearn\\node_modules\\egg\\config\\config.default.js",
+    "dnsCacheMaxLength": "D:\\workspace\\node\\egglearn\\node_modules\\egg\\config\\config.default.js",
     "request": {
-      "timeout": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg\\config\\config.default.js"
+      "timeout": "D:\\workspace\\node\\egglearn\\node_modules\\egg\\config\\config.default.js"
     },
     "httpAgent": {
-      "keepAlive": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg\\config\\config.default.js",
-      "freeSocketKeepAliveTimeout": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg\\config\\config.default.js",
-      "maxSockets": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg\\config\\config.default.js",
-      "maxFreeSockets": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg\\config\\config.default.js"
+      "keepAlive": "D:\\workspace\\node\\egglearn\\node_modules\\egg\\config\\config.default.js",
+      "freeSocketKeepAliveTimeout": "D:\\workspace\\node\\egglearn\\node_modules\\egg\\config\\config.default.js",
+      "maxSockets": "D:\\workspace\\node\\egglearn\\node_modules\\egg\\config\\config.default.js",
+      "maxFreeSockets": "D:\\workspace\\node\\egglearn\\node_modules\\egg\\config\\config.default.js"
     },
     "httpsAgent": {
-      "keepAlive": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg\\config\\config.default.js",
-      "freeSocketKeepAliveTimeout": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg\\config\\config.default.js",
-      "maxSockets": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg\\config\\config.default.js",
-      "maxFreeSockets": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg\\config\\config.default.js"
+      "keepAlive": "D:\\workspace\\node\\egglearn\\node_modules\\egg\\config\\config.default.js",
+      "freeSocketKeepAliveTimeout": "D:\\workspace\\node\\egglearn\\node_modules\\egg\\config\\config.default.js",
+      "maxSockets": "D:\\workspace\\node\\egglearn\\node_modules\\egg\\config\\config.default.js",
+      "maxFreeSockets": "D:\\workspace\\node\\egglearn\\node_modules\\egg\\config\\config.default.js"
     }
   },
   "meta": {
-    "enable": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg\\config\\config.default.js",
-    "logging": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg\\config\\config.default.js"
+    "enable": "D:\\workspace\\node\\egglearn\\node_modules\\egg\\config\\config.default.js",
+    "logging": "D:\\workspace\\node\\egglearn\\node_modules\\egg\\config\\config.default.js"
   },
-  "coreMiddleware": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg\\config\\config.default.js",
-  "workerStartTimeout": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg\\config\\config.default.js",
+  "coreMiddleware": "D:\\workspace\\node\\egglearn\\node_modules\\egg\\config\\config.default.js",
+  "workerStartTimeout": "D:\\workspace\\node\\egglearn\\node_modules\\egg\\config\\config.default.js",
   "cluster": {
     "listen": {
-      "path": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg\\config\\config.default.js",
-      "port": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg\\config\\config.default.js",
-      "hostname": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg\\config\\config.default.js"
+      "path": "D:\\workspace\\node\\egglearn\\node_modules\\egg\\config\\config.default.js",
+      "port": "D:\\workspace\\node\\egglearn\\node_modules\\egg\\config\\config.default.js",
+      "hostname": "D:\\workspace\\node\\egglearn\\node_modules\\egg\\config\\config.default.js"
     }
   },
   "clusterClient": {
-    "maxWaitTime": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg\\config\\config.default.js",
-    "responseTimeout": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg\\config\\config.default.js"
+    "maxWaitTime": "D:\\workspace\\node\\egglearn\\node_modules\\egg\\config\\config.default.js",
+    "responseTimeout": "D:\\workspace\\node\\egglearn\\node_modules\\egg\\config\\config.default.js"
   },
-  "onClientError": "D:\\workspace\\node\\wechat-egg\\node_modules\\egg\\config\\config.default.js"
+  "onClientError": "D:\\workspace\\node\\egglearn\\node_modules\\egg\\config\\config.default.js"
 }
